@@ -29,21 +29,9 @@
 (+ (cc 11 2) (cc 1 5))
 (+ (cc 11 1) (cc 6 5) (cc 1 5))
 (+ (cc 11 0) (cc 10 5) (cc 6 5) (cc 1 5))
-(+ (cc 10 5) (cc 6 5) (cc 1 5))
-...
+(+ (cc 10 4) (cc -50 5) (cc 6 5) (cc 1 5))
 (+ (cc 10 2) (cc 0 5) (cc 6 5) (cc 1 5))
 (+ 1 (cc 6 5) (cc 1 5))
-(+ 1 (cc 6 1) (cc 1 5) (cc 1 5))
-(+ 1 (cc 6 0) (cc 5 5) (cc 1 5) (cc 1 5))
-(+ 1 (cc 5 5) (cc 1 5) (cc 1 5))
-...
-(+ 1 (cc 5 1) (cc 0 5) (cc 1 5) (cc 1 5))
-(+ 1 1 (cc 1 5) (cc 1 5))
-...
-(+ 1 1 (cc 1 0) (cc 0 1) (cc 1 0) (cc 0 1))
-(+ 1 1 1 1)
-== 4
+(+ 1 (cc 6 1) (cc 1 5) (cc 1 5)) ; fucked up somewhere, will try again later...
 
-Not a tree, because I'm too fucking lazy to draw it out like that
-This will suffice.
 |#
